@@ -1,0 +1,483 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "Mi a legkedveltebb gyümölcs?"
+    },
+    {
+      "id": 2,
+      "text": "Mondj egy várost, ami tőlünk nyugatra Európában található!"
+    },
+    {
+      "id": 3,
+      "text": "Melyik a legnépszerűbb filmzsáner?"
+    },
+    {
+      "id": 4,
+      "text": "Mi a legjobb gyorsétterem?"
+    },
+    {
+      "id": 5,
+      "text": "Mondj egy kék színű virágot!"
+    },
+    {
+      "id": 6,
+      "text": "Mi a legjobb szuperképesség?"
+    },
+    {
+      "id": 7,
+      "text": "Melyik az egyik leghíresebb történelmi személyiség?"
+    },
+    {
+      "id": 8,
+      "text": "Melyik egyik legmenőbb város, amit mindenképpen meg kellene látogatni?"
+    },
+    {
+      "id": 9,
+      "text": "Milyen az ideális pizza feltétválasztás?"
+    },
+    {
+      "id": 10,
+      "text": "Mi a legjobb időszak az évben?"
+    },
+    {
+      "id": 11,
+      "text": "Mi a legjobb hétvégi elfoglaltság?"
+    },
+    {
+      "id": 12,
+      "text": "Melyik a legrosszabb időjárási körülmény, amiben autóval utazni lehet?"
+    },
+    {
+      "id": 13,
+      "text": "Melyik a legrosszabb étel, amit valaha ettél?"
+    },
+    {
+      "id": 14,
+      "text": "Mi a legjobb hobbi egy esős napra?"
+    },
+    {
+      "id": 15,
+      "text": "Melyik szakma a legveszélyesebb?"
+    },
+    {
+      "id": 16,
+      "text": "Melyik a legnagyobb állatfaj a Földön?"
+    },
+    {
+      "id": 17,
+      "text": "Melyik a legkissebb állat ami elbírja a súllyod?"
+    },
+    {
+      "id": 18,
+      "text": "Mi a legnépszerűbb reggeli?"
+    },
+    {
+      "id": 19,
+      "text": "Melyik a legismertebb zenei banda?"
+    },
+    {
+      "id": 20,
+      "text": "Mi a legjobb zeneműfaj?"
+    },
+    {
+      "id": 21,
+      "text": "Mi a legkisebb bűn?"
+    },
+    {
+      "id": 22,
+      "text": "Ki volt a leggonoszabb ember a földön?"
+    },
+    {
+      "id": 23,
+      "text": "Melyik a legfinomabb leves?"
+    },
+    {
+      "id": 24,
+      "text": "Melyik a legfinomabb fűszer?"
+    },
+    {
+      "id": 25,
+      "text": "Mi a legnehezebb feladat szombat reggel?"
+    },
+    {
+      "id": 26,
+      "text": "Mi az internet legnagyobb előnye?"
+    },
+    {
+      "id": 27,
+      "text": "Mi a legjobb helyszín egy randihoz?"
+    },
+    {
+      "id": 28,
+      "text": "Melyik legismertebb festmény?"
+    },
+    {
+      "id": 29,
+      "text": "Mi a legfájdalmasabb dolog az életben?"
+    },
+    {
+      "id": 30,
+      "text": "Melyik a legjobb módja a stressz levezetésének?"
+    },
+    {
+      "id": 31,
+      "text": "Melyik történelmi korszakban szeretnél a legkevésbé élni?"
+    },
+    {
+      "id": 32,
+      "text": "Mi a legjobb megoldás az éhségre ha nincs pénzed?"
+    },
+    {
+      "id": 33,
+      "text": "Milyen a tökéletes randipartner?"
+    },
+    {
+      "id": 34,
+      "text": "Ha egy dolgot inygen kapsz a Tescoban, mit választasz?"
+    },
+    {
+      "id": 35,
+      "text": "Mitől félnek a gyerekek?"
+    },
+    {
+      "id": 36,
+      "text": "Mi a legérdekesebb történelmi korszak?"
+    },
+    {
+      "id": 37,
+      "text": "Melyik a legkényelmesebb bútor?"
+    },
+    {
+      "id": 38,
+      "text": "Mi a legnépszerűbb szexuális fantázia?"
+    },
+    {
+      "id": 39,
+      "text": "Mi a legnagyobb technológiai találmány?"
+    },
+    {
+      "id": 40,
+      "text": "Melyik a legnépszerűbb ünnep?"
+    },
+    {
+      "id": 41,
+      "text": "Mi a legjobb módja az idő eltöltésének egyedül?"
+    },
+    {
+      "id": 42,
+      "text": "Melyik a legfontosabb politikai kérdés ma?"
+    },
+    {
+      "id": 43,
+      "text": "Mi a legjobb film az elmúlt 10 évben?"
+    },
+    {
+      "id": 44,
+      "text": "Melyik a legizgalmasabb sportesemény?"
+    },
+    {
+      "id": 45,
+      "text": "Mi a legjobb tanács a főtt tojáskészítéshez?"
+    },
+    {
+      "id": 46,
+      "text": "Milyen a tökéletes reggeli?"
+    },
+    {
+      "id": 47,
+      "text": "Melyik a legunalmasabb utazási cél?"
+    },
+    {
+      "id": 48,
+      "text": "Mi a legjobb zeneműfaj szexhez?"
+    },
+    {
+      "id": 49,
+      "text": "Melyik a leghasznosabb mobil applikáció?"
+    },
+    {
+      "id": 50,
+      "text": "Mikor vagy a legboldogabb?"
+    },
+    {
+      "id": 51,
+      "text": "Melyik a legidegesítőbb szó?"
+    },
+    {
+      "id": 52,
+      "text": "Melyik a legjobb konyhai eszköz?"
+    },
+    {
+      "id": 53,
+      "text": "Mi a legidegesítőbb szokás?"
+    },
+    {
+      "id": 54,
+      "text": "Melyik a legjobb szénsavas ital?"
+    },
+    {
+      "id": 55,
+      "text": "Mit csinálsz ha szomorú vagy?"
+    },
+    {
+      "id": 56,
+      "text": "Melyik a legjobb szexuális pozíció?"
+    },
+    {
+      "id": 57,
+      "text": "Mi a legfontosabb dolog a személyes higiéniában?"
+    },
+    {
+      "id": 58,
+      "text": "Melyik a kedvenc napod?"
+    },
+    {
+      "id": 59,
+      "text": "Mi a legkínosabb dolog amit egy beszélgetés közben tehetsz?"
+    },
+    {
+      "id": 60,
+      "text": "Melyik a legnagyobb hiba, amit elkövethetsz munkahelyen?"
+    },
+    {
+      "id": 61,
+      "text": "Ki a leghíresebb magyar?"
+    },
+    {
+      "id": 62,
+      "text": "Melyik a legfontosabb történelmi esemény?"
+    },
+    {
+      "id": 63,
+      "text": "Mit kell tenned hogy megdícsérjen az anyád?"
+    },
+    {
+      "id": 64,
+      "text": "Melyik ország konyhája a legfinomabb?"
+    },
+    {
+      "id": 65,
+      "text": "Mi az a tárgy a szobában amivel be tudod törni az ajtót?"
+    },
+    {
+      "id": 66,
+      "text": "Mitől lesz piros a nyelved?"
+    },
+    {
+      "id": 67,
+      "text": "Hány centi a férfiak átlag magassága Magyarországon?"
+    },
+    {
+      "id": 68,
+      "text": "Melyik a legjobb mobiltelefon márka?"
+    },
+    {
+      "id": 69,
+      "text": "Mi a legfurcsább dolog ami finom sósan?"
+    },
+    {
+      "id": 70,
+      "text": "Mi az az étel ami nem jó tejföl nélkül?"
+    },
+    {
+      "id": 71,
+      "text": "Ki a legbefolyásosabb ember?"
+    },
+    {
+      "id": 72,
+      "text": "Melyik állat tudja legyőzni a rókát?"
+    },
+    {
+      "id": 73,
+      "text": "Ha egy állattá változhatnál egy napra, melyik lennél? "
+    },
+    {
+      "id": 74,
+      "text": "Mi a legizgalmasabb munka a világon? "
+    },
+    {
+      "id": 75,
+      "text": "Mi a legrosszabb betegség?"
+    },
+    {
+      "id": 76,
+      "text": "Mit viszel magaddal a lakatlan szigetre?"
+    },
+    {
+      "id": 77,
+      "text": "Melyik a legjobb autómárka?"
+    },
+    {
+      "id": 78,
+      "text": "Mi a legfinomabb süti?"
+    },
+    {
+      "id": 79,
+      "text": "Melyik a legkisebb állat?"
+    },
+    {
+      "id": 80,
+      "text": "Mi a leghangosabb dolog a világon?"
+    },
+    {
+      "id": 81,
+      "text": "Melyik a legnépszerűbb káros szokás?"
+    },
+    {
+      "id": 82,
+      "text": "Mi a legfontosabb dolog az életben?"
+    },
+    {
+      "id": 83,
+      "text": "Mi a legunalmasabb sport amit a tv-ben nézhetsz?"
+    },
+    {
+      "id": 84,
+      "text": "Mi a legfinomabb egészséges rágcsa?"
+    },
+    {
+      "id": 85,
+      "text": "Ki a legszebb férfi?"
+    },
+    {
+      "id": 86,
+      "text": "Ki a legszebb nő?"
+    },
+    {
+      "id": 87,
+      "text": "Melyik a legigénytelenebb szobanövény?"
+    },
+    {
+      "id": 88,
+      "text": "Mi a legnépszerűbb kutyafajta?"
+    },
+    {
+      "id": 89,
+      "text": "Melyik a legnépszerűbb cipőmárka?"
+    },
+    {
+      "id": 90,
+      "text": "Mi a legrosszabb dolog ami történni fog 10 éven belül a világban?"
+    },
+    {
+      "id": 91,
+      "text": "Mi a legnehezebb dolog amit egy átlag ember fel tud emelni?"
+    },
+    {
+      "id": 92,
+      "text": "Melyik a legnélkülözhetetlenebb tárgy a mindennapi életben?"
+    },
+    {
+      "id": 93,
+      "text": "Ki a legokosabb ember a világon?"
+    },
+    {
+      "id": 94,
+      "text": "Ki néz ki a legjobban ma?"
+    },
+    {
+      "id": 95,
+      "text": "Mi a legrosszabb dolog amit megennél 10 000 forintért?"
+    },
+    {
+      "id": 96,
+      "text": "Mit szégyelnek a legjobban az emberek?"
+    },
+    {
+      "id": 97,
+      "text": "Melyik állatfaj fog kihalni legközelebb?"
+    },
+    {
+      "id": 98,
+      "text": "Mi a legnagyobb zöldség?"
+    },
+    {
+      "id": 99,
+      "text": "Mi a legfontosabb a gyereknevelésben?"
+    },
+    {
+      "id": 100,
+      "text": "Melyik szagot választanád, ha azt egy hétig kellene érezned folyamatosan?"
+    },
+    {
+      "id": 101,
+      "text": "Milyen állat hangját utánozod a legjobban?"
+    },
+    {
+      "id": 102,
+      "text": "Melyik a legcsajosabb film?"
+    },
+    {
+      "id": 103,
+      "text": "Mivel eszed a hotdogot?"
+    },
+    {
+      "id": 104,
+      "text": "Miért itélik a legtöbb embert a bíróságon?"
+    },
+    {
+      "id": 105,
+      "text": "Miért itélik a legtöbb embert a bíróságon?"
+    },
+    {
+      "id": 106,
+      "text": "Mit nem tudsz széttörni egy kalapáccsál?"
+    },
+    {
+      "id": 107,
+      "text": "Melyik versre emlékszel az általános iskolóból?"
+    },
+    {
+      "id": 108,
+      "text": "Melyik versre emlékszel az általános iskolóból?"
+    },
+    {
+      "id": 109,
+      "text": "Mondj egy magyar celebet!"
+    },
+    {
+      "id": 110,
+      "text": "Mi a legkellemetlenebb zaj?"
+    },
+    {
+      "id": 111,
+      "text": "Melyik állat gyorsabb egy kecskénél?"
+    }
+    
+  ],
+  "players": [
+    {
+      "id": 1705602401870,
+      "text": "Viktor",
+      "score": 2
+    },
+    {
+      "id": 1705602416089,
+      "text": "Luca",
+      "score": 5
+    }
+  ],
+  "answers": [
+    {
+      "player": "Luca",
+      "answer": "ibolya"
+    },
+    {
+      "player": "Viktor",
+      "answer": "Rózsa"
+    },
+    {
+      "player": "Gergely",
+      "answer": "Ibolya"
+    },
+    {
+      "player": "Kriszti",
+      "answer": "ibolya"
+    },
+    {
+      "player": "Bence",
+      "answer": "ibolya"
+    }
+  ]
+}
