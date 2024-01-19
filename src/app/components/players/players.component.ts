@@ -1,17 +1,20 @@
 import { GameService } from 'src/app/service/game.service';
-import { Component, OnDestroy } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-players',
-  templateUrl: './players.component.html',
-  styleUrls: ['./players.component.css'],
+  selector: "app-players",
+  templateUrl: "./players.component.html",
+  styleUrls: ["./players.component.css"],
 })
-export class PlayersComponent implements OnDestroy {
+export class PlayersComponent implements OnDestroy, OnInit {
   private subscriptions = new Subscription();
 
   constructor(public gameService: GameService) {}
 
+  ngOnInit(): void {
+    this.gameService.loadPlayers();
+  }
   onIncreaseScore(playerId: number): void {
     const sub = this.gameService.increaseScore(playerId).subscribe();
     this.subscriptions.add(sub);

@@ -34,7 +34,7 @@
     },
     {
       "id": 9,
-      "text": "Milyen az ideális pizza feltétválasztás?"
+      "text": "Milyen az ideális pizza feltét választás?"
     },
     {
       "id": 10,
@@ -62,11 +62,11 @@
     },
     {
       "id": 16,
-      "text": "Melyik a legnagyobb állatfaj a Földön?"
+      "text": "Melyik a legelavultabb férfi név?"
     },
     {
       "id": 17,
-      "text": "Melyik a legkissebb állat ami elbírja a súllyod?"
+      "text": "Melyik a legkissebb állat, ami elbírja a súllyod?"
     },
     {
       "id": 18,
@@ -126,7 +126,7 @@
     },
     {
       "id": 32,
-      "text": "Mi a legjobb megoldás az éhségre ha nincs pénzed?"
+      "text": "Mi a legjobb megoldás az éhségre, ha nincs pénzed?"
     },
     {
       "id": 33,
@@ -234,7 +234,7 @@
     },
     {
       "id": 59,
-      "text": "Mi a legkínosabb dolog amit egy beszélgetés közben tehetsz?"
+      "text": "Mi a legkínosabb dolog, amit egy beszélgetés közben tehetsz?"
     },
     {
       "id": 60,
@@ -250,7 +250,7 @@
     },
     {
       "id": 63,
-      "text": "Mit kell tenned hogy megdícsérjen az anyád?"
+      "text": "Mit kell tenned, hogy megdícsérjen az anyád?"
     },
     {
       "id": 64,
@@ -258,7 +258,7 @@
     },
     {
       "id": 65,
-      "text": "Mi az a tárgy a szobában amivel be tudod törni az ajtót?"
+      "text": "Mi az a tárgy a szobában, amivel be tudod törni az ajtót?"
     },
     {
       "id": 66,
@@ -274,11 +274,11 @@
     },
     {
       "id": 69,
-      "text": "Mi a legfurcsább dolog ami finom sósan?"
+      "text": "Mi a legfurcsább dolog, ami finom sósan?"
     },
     {
       "id": 70,
-      "text": "Mi az az étel ami nem jó tejföl nélkül?"
+      "text": "Mi az az étel, ami nem jó tejföl nélkül?"
     },
     {
       "id": 71,
@@ -330,7 +330,7 @@
     },
     {
       "id": 83,
-      "text": "Mi a legunalmasabb sport amit a tv-ben nézhetsz?"
+      "text": "Mi a legunalmasabb sport, amit a tv-ben nézhetsz?"
     },
     {
       "id": 84,
@@ -338,11 +338,11 @@
     },
     {
       "id": 85,
-      "text": "Ki a legszebb férfi?"
+      "text": "Ki a legszebb férfi a földön?"
     },
     {
       "id": 86,
-      "text": "Ki a legszebb nő?"
+      "text": "Ki a legszebb nő a földön?"
     },
     {
       "id": 87,
@@ -358,11 +358,11 @@
     },
     {
       "id": 90,
-      "text": "Mi a legrosszabb dolog ami történni fog 10 éven belül a világban?"
+      "text": "Mi a legrosszabb dolog, ami történni fog 10 éven belül a világban?"
     },
     {
       "id": 91,
-      "text": "Mi a legnehezebb dolog amit egy átlag ember fel tud emelni?"
+      "text": "Mi a legnehezebb dolog, amit egy átlag ember fel tud emelni?"
     },
     {
       "id": 92,
@@ -378,7 +378,7 @@
     },
     {
       "id": 95,
-      "text": "Mi a legrosszabb dolog amit megennél 10 000 forintért?"
+      "text": "Mi a legrosszabb dolog, amit megennél 10 000 forintért?"
     },
     {
       "id": 96,
@@ -414,11 +414,11 @@
     },
     {
       "id": 104,
-      "text": "Miért itélik a legtöbb embert a bíróságon?"
+      "text": "Miért ítélik el a legtöbb embert a bíróságon?"
     },
     {
       "id": 105,
-      "text": "Miért itélik a legtöbb embert a bíróságon?"
+      "text": "Melyik a legkönnyebb táncstílus?"
     },
     {
       "id": 106,
@@ -430,7 +430,7 @@
     },
     {
       "id": 108,
-      "text": "Melyik versre emlékszel az általános iskolóból?"
+      "text": "Mit csinálsz, ha melletted verekednek?"
     },
     {
       "id": 109,
@@ -443,19 +443,84 @@
     {
       "id": 111,
       "text": "Melyik állat gyorsabb egy kecskénél?"
+    },
+    {
+      "id": 112,
+      "text": "Melyik a legkényelmesebb ruhadarab?"
+    },
+    {
+      "id": 113,
+      "text": "Hogyan ünnepelnének születésnapot az autók?"
+    },
+    {
+      "id": 114,
+      "text": "Mit változtatnál a testeden egy plasztikai műtéttel?"
+    },
+    {
+      "id": 115,
+      "text": "Mi a kisbaba első szava?"
+    },
+    {
+      "id": 116,
+      "text": "Mit rajzolnál a hóba pisilés közben?"
+    },
+    {
+      "id": 117,
+      "text": "Ki a legfélőssebb köztünk?"
+    },
+    {
+      "id": 118,
+      "text": "Mi nélkül nem lehet élni?"
+    },
+    {
+      "id": 119,
+      "text": "Mit utálsz az emberekben?"
+    },
+    {
+      "id": 120,
+      "text": "Hová bújsz zombi apoklaipszis idején?"
+    },
+    {
+      "id": 121,
+      "text": "Mit tennél ha egy napra láthatatlan lennél?"
+    },
+    {
+      "id": 122,
+      "text": "Hogyan reagálnál, ha a melletted ülő játékos szellentene?"
+    },
+    {
+      "id": 123,
+      "text": "Miből akarnak többet a nők, mint a pasik?"
+    },
+    {
+      "id": 124,
+      "text": "Hova dugod el a puskádat viszga közben?"
+    },
+    {
+      "id": 125,
+      "text": "Melyik a legextrább esküvő helyszín?"
     }
-    
   ],
   "players": [
     {
-      "id": 1705602401870,
-      "text": "Viktor",
-      "score": 2
+      "id": 1705687291376,
+      "text": "Bence",
+      "score": 11
     },
     {
-      "id": 1705602416089,
+      "id": 1705687310545,
+      "text": "Pityu",
+      "score": 0
+    },
+    {
+      "id": 1705690014834,
+      "text": "Pilla",
+      "score": 8
+    },
+    {
+      "id": 1705696905949,
       "text": "Luca",
-      "score": 5
+      "score": 0
     }
   ],
   "answers": [
@@ -465,7 +530,7 @@
     },
     {
       "player": "Viktor",
-      "answer": "Rózsa"
+      "answer": "Rózsa ami meg van szinezve"
     },
     {
       "player": "Gergely",

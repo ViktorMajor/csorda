@@ -1,36 +1,39 @@
 .player-card {
-  background-color: #e0f7fa;
-  border: 1px solid #4fc3f7;
   border-radius: 10px;
-  padding: 0 10px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 2px solid #5d1049;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   display: flex;
-  justify-content: space-between;
+  padding: 3px;
+  justify-content: center;
   align-items: center;
-   margin-bottom: 5px;
+  margin-bottom: 3px;  
 }
 
-
+.player-card:last-child {
+  margin-bottom: 0;
+}
 
 .player-info {
   display: flex;
   flex-direction: row;
   padding: 2px;
- 
+  align-items: center;
 }
 
 .player-name {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
   color: #d20046;
-  margin: 4px;
+  margin: 0;
 }
 
 .player-score {
-  font-size: 1.1em;
-  color: #9200ac;
-  margin: 5px;
+  font-size: .95em;
+  color: #d20046;
+  margin: 0;
+  margin-left: 3px;
 }
 
 .player-controls {
@@ -39,14 +42,13 @@
 }
 
 .score-btn {
-  background-color: #4fc3f7;
+  background-color: rgba(16, 93, 69, 0.85);
+  padding: 3px 6px;
   border: none;
   border-radius: 5px;
   color: white;
-  padding: 3px 7px;
+
   font-size: 1em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .score-btn:hover {
@@ -54,9 +56,9 @@
 }
 
 .decrease {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .increase {
-  margin-left: 5px;
+  margin-left: 10px;
 }

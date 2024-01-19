@@ -10,6 +10,8 @@ import { PlayersComponent } from './components/players/players.component';
 import { LoginComponent } from './page/login/login.component';
 import { GameboardComponent } from './page/gameboard/gameboard.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,9 +19,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     AnswersComponent,
     PlayersComponent,
     LoginComponent,
-    GameboardComponent,
+    GameboardComponent
   ],
   imports: [
+    BrowserAnimationsModule,
     ReactiveFormsModule,
     BrowserModule,
     AppRoutingModule,

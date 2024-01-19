@@ -1,24 +1,24 @@
-import { Component, OnInit } from '@angular/core';
-import { GameService } from 'src/app/service/game.service';
+import { Component, OnInit } from "@angular/core";
+import { GameService } from "src/app/service/game.service";
+import { Question } from "src/game.model"; 
 
 @Component({
-  selector: 'app-question',
-  templateUrl: './question.component.html',
-  styleUrls: ['./question.component.css'],
+  selector: "app-question",
+  templateUrl: "./question.component.html",
+  styleUrls: ["./question.component.css"],
 })
 export class QuestionComponent implements OnInit {
-  question: { id: number; text: string } | null = null;
+  question: Question | null = null;
 
   constructor(private gameService: GameService) {}
 
   ngOnInit(): void {
-    this.gameService.getRandomQuestion().subscribe((question) => {
+    this.gameService.currentQuestion$.subscribe((question: Question | null) => {
       this.question = question;
     });
   }
+
   nextRound() {
-    this.gameService.getRandomQuestion().subscribe((question) => {
-      this.question = question;
-    });
+    this.gameService.refreshQuestion();
   }
 }

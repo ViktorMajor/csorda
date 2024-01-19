@@ -1,3 +1,11 @@
 <div class="answer-card">
   <p class="answer-text">A válaszok a következőek:</p>
+  <div>
+    <div class="answers" *ngFor="let answer of displayedAnswers">
+    <p>{{ answer.player }}:</p>
+    <p>{{ answer.answer }}</p>
+  </div>
+  </div>
+  
+  <button (click)="showNextAnswer()">Következő válasz</button>
 </div>
