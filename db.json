@@ -26,15 +26,15 @@
     },
     {
       "id": 7,
-      "text": "Melyik az egyik leghíresebb történelmi személyiség?"
+      "text": "Melyik az leghíresebb történelmi személyiség?"
     },
     {
       "id": 8,
-      "text": "Melyik egyik legmenőbb város, amit mindenképpen meg kellene látogatni?"
+      "text": "Melyik legmenőbb város, amit mindenképpen meg kellene látogatni?"
     },
     {
       "id": 9,
-      "text": "Milyen az ideális pizza feltét választás?"
+      "text": "Milyen az ideális pizza feltét?"
     },
     {
       "id": 10,
@@ -98,7 +98,7 @@
     },
     {
       "id": 25,
-      "text": "Mi a legnehezebb feladat szombat reggel?"
+      "text": "Melyik Pécs legjobb része?"
     },
     {
       "id": 26,
@@ -118,7 +118,7 @@
     },
     {
       "id": 30,
-      "text": "Melyik a legjobb módja a stressz levezetésének?"
+      "text": "Mi a legjobb módja a stressz levezetésének?"
     },
     {
       "id": 31,
@@ -126,15 +126,15 @@
     },
     {
       "id": 32,
-      "text": "Mi a legjobb megoldás az éhségre, ha nincs pénzed?"
+      "text": "Mi akartál lenni gyerekkorodban?"
     },
     {
       "id": 33,
-      "text": "Milyen a tökéletes randipartner?"
+      "text": "Mi a legnépszerűbb rövid ital?"
     },
     {
       "id": 34,
-      "text": "Ha egy dolgot inygen kapsz a Tescoban, mit választasz?"
+      "text": "Ha egy dolgot ingyen kapsz a Tescoban, mit választasz?"
     },
     {
       "id": 35,
@@ -142,11 +142,11 @@
     },
     {
       "id": 36,
-      "text": "Mi a legérdekesebb történelmi korszak?"
+      "text": "Hány naponta mosol hajat?"
     },
     {
       "id": 37,
-      "text": "Melyik a legkényelmesebb bútor?"
+      "text": "Melyik a legjobb bútor?"
     },
     {
       "id": 38,
@@ -154,7 +154,7 @@
     },
     {
       "id": 39,
-      "text": "Mi a legnagyobb technológiai találmány?"
+      "text": "Mi a legjobb technológiai találmány?"
     },
     {
       "id": 40,
@@ -170,19 +170,19 @@
     },
     {
       "id": 43,
-      "text": "Mi a legjobb film az elmúlt 10 évben?"
+      "text": "Melyik a legjobb film az elmúlt 10 évben?"
     },
     {
       "id": 44,
-      "text": "Melyik a legizgalmasabb sportesemény?"
+      "text": "Melyik a leggyakoribb női név?"
     },
     {
       "id": 45,
-      "text": "Mi a legjobb tanács a főtt tojáskészítéshez?"
+      "text": "Ki fut köztünk a leglassabban?"
     },
     {
       "id": 46,
-      "text": "Milyen a tökéletes reggeli?"
+      "text": "Mi a tökéletes reggeli?"
     },
     {
       "id": 47,
@@ -190,7 +190,7 @@
     },
     {
       "id": 48,
-      "text": "Mi a legjobb zeneműfaj szexhez?"
+      "text": "Melyik a legjobb napszak a szexhez?"
     },
     {
       "id": 49,
@@ -270,7 +270,7 @@
     },
     {
       "id": 68,
-      "text": "Melyik a legjobb mobiltelefon márka?"
+      "text": "Melyik a legjobb ár/érték arányű mobiltelefon márka?"
     },
     {
       "id": 69,
@@ -286,7 +286,7 @@
     },
     {
       "id": 72,
-      "text": "Melyik állat tudja legyőzni a rókát?"
+      "text": "Melyik a legkisebb állat, ami le tudja győzni a rókát?"
     },
     {
       "id": 73,
@@ -374,7 +374,7 @@
     },
     {
       "id": 94,
-      "text": "Ki néz ki a legjobban ma?"
+      "text": "Ki néz ki a legjobban köztünk?"
     },
     {
       "id": 95,
@@ -386,7 +386,7 @@
     },
     {
       "id": 97,
-      "text": "Melyik állatfaj fog kihalni legközelebb?"
+      "text": "Melyik a legviccesebb sorozat?"
     },
     {
       "id": 98,
@@ -394,7 +394,7 @@
     },
     {
       "id": 99,
-      "text": "Mi a legfontosabb a gyereknevelésben?"
+      "text": "Hány órán keresztül tudsz táncolni megállás nélkül?"
     },
     {
       "id": 100,
@@ -402,7 +402,7 @@
     },
     {
       "id": 101,
-      "text": "Milyen állat hangját utánozod a legjobban?"
+      "text": "Milyen állat hangját utánzod a legjobban?"
     },
     {
       "id": 102,
@@ -414,7 +414,7 @@
     },
     {
       "id": 104,
-      "text": "Miért ítélik el a legtöbb embert a bíróságon?"
+      "text": "Mi a leg pasisabb tevékenység?"
     },
     {
       "id": 105,
@@ -422,7 +422,7 @@
     },
     {
       "id": 106,
-      "text": "Mit nem tudsz széttörni egy kalapáccsál?"
+      "text": "Mit nem tudsz széttörni egy kiskalapáccsál?"
     },
     {
       "id": 107,
@@ -462,7 +462,7 @@
     },
     {
       "id": 116,
-      "text": "Mit rajzolnál a hóba pisilés közben?"
+      "text": "Hány rúzsa van egy átlag nőnek?"
     },
     {
       "id": 117,
@@ -498,29 +498,49 @@
     },
     {
       "id": 125,
-      "text": "Melyik a legextrább esküvő helyszín?"
+      "text": "Melyik a legextrémebb esküvő helyszín?"
+    },
+    {
+      "id": 126,
+      "text": "Mi a legtipikusabb karácsonyi fogás?"
+    },
+    {
+      "id": 127,
+      "text": "Mi a legrosszabb karácsonyi ajándék?"
+    },
+    {
+      "id": 128,
+      "text": "Mit néztek karácsonykor?"
+    },
+    {
+      "id": 129,
+      "text": "Mi leggyakoribb fóbia?"
+    },
+    {
+      "id": 130,
+      "text": "Kinek a legszebb a mosolya köztünk?"
     }
   ],
   "players": [
     {
-      "id": 1705687291376,
-      "text": "Bence",
-      "score": 11
+      "id": 1705699648044,
+      "text": "Viktor",
+      "score": 3
     },
     {
-      "id": 1705687310545,
-      "text": "Pityu",
-      "score": 0
-    },
-    {
-      "id": 1705690014834,
-      "text": "Pilla",
-      "score": 8
-    },
-    {
-      "id": 1705696905949,
+      "id": 1705699709566,
       "text": "Luca",
+      "score": 1
+    },
+    {
+      "id": 1705699717725,
+      "text": "Bence",
       "score": 0
+    },
+    {
+      "id": 1705699941590,
+      "text": "Géza",
+      "score": 1
     }
   ],
   "answers": [

@@ -31,11 +31,14 @@
   border: 2px solid #5d1049;
 }
 .answers p {
-  color: #d20046;
   margin: 3px;
 }
+.name {
+  color: #d20046;
+  font-weight: 700;
+}
 button {
-  background-color: rgba(16, 93, 69, 0.85);
+  background-color: rgb(96 105 17 / 85%);
   color: white;
   padding: 5px 10px;
   border: none;
