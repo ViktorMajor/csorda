@@ -1,12 +1,12 @@
 .answer-card {
-  border-radius: 10px;
-  padding: 2px 5px;
+  border-radius: 15px;
+  padding: 5px 10px;
   margin: 0;
   margin-top: 30px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px,
+    rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   transition: all 0.3s ease;
   background-color: rgba(255, 255, 255, 0.85);
-  border: 2px solid #5d1049;
 }
 .answer-card > div {
   display: flex;
@@ -21,14 +21,14 @@
   margin: 2px;
 }
 .answers {
-  border-radius: 10px;
-  padding: 2px 5px;
+  border-radius: 15px;
+  padding: 5px 10px;
   margin: 0;
-  margin-top: 10px;
+  margin-top: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   background-color: rgba(255, 255, 255, 0.85);
-  border: 2px solid #5d1049;
+  border: 2px solid #ccc;
 }
 .answers p {
   margin: 3px;
@@ -38,11 +38,11 @@
   font-weight: 700;
 }
 button {
-  background-color: rgb(96 105 17 / 85%);
+  background-color: #adbea5;
   color: white;
   padding: 5px 10px;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   font-size: 1em;
   cursor: pointer;
   margin-top: 10px;

@@ -4,7 +4,7 @@
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 15px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -28,20 +28,67 @@
 .form-group input {
   padding: 8px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 15px;
   font-size: 16px;
 }
 
 .submit-btn {
- background-color: rgb(96 105 17 / 85%);
+ background-color: #A8D5BA;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   color: white;
   font-size: 1em;
   cursor: pointer;
 }
 
 .submit-btn:hover {
-  background-color: #0056b3;
+  background-color: #A8D5BA;
+}
+
+@media (max-width: 600px) {
+  .login-container {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .form-group input {
+    font-size: 14px;
+  }
+
+  .submit-btn {
+    padding: 12px 24px;
+    font-size: 0.9em;
+  }
+}
+
+
+.form-group input:focus {
+  outline: none;
+  border: 1px solid #A8D5BA;
+  box-shadow: 0 0 8px #A8D5BA;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.submit-btn:active {
+  transform: scale(0.98);
+}
+
+
+.form-group input {
+  padding: 12px;
+}
+
+.submit-btn {
+  padding: 15px 25px;
+  font-size: 1.1em;
+}
+
+
+.form-group label {
+  font-size: 18px;
+}
+
+.form-group input {
+  font-size: 16px;
 }

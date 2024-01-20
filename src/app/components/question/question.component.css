@@ -3,14 +3,13 @@
   margin-left: 5vw;
 }
 .question-card {
-  border-radius: 10px;
-  padding: 2px 5px;
+  border-radius: 15px;
+  padding: 8px;
   margin: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-
+ 
   background-color: rgba(255, 255, 255, 0.85);
-  border: 2px solid #5d1049;
 }
 
 p {
@@ -24,10 +23,10 @@ p {
 }
 
 .next-btn {
-  background-color: rgb(96 105 17 / 85%);
+  background-color: #ADBEA5;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   color: white;
   font-size: 1em;
   cursor: pointer;

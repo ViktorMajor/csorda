@@ -1,6 +1,9 @@
 body {
-  background-image: url("/assets/birka2.png");
+  background-image: url("/assets/birka7.png");
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: "Arial", sans-serif;
+  
+}
+p, h1, button {
+font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
 }

@@ -1,9 +1,9 @@
 
 .send-button {
-  background-color: rgb(96 105 17 / 85%);
+  background-color: #adbea5;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   color: white;
   font-size: 1em;
   cursor: pointer;
@@ -11,17 +11,17 @@
 }
 
 .send-button:hover {
-  background-color: rgba(16, 93, 69, 1);
+  background-color: #adbea5;
 }
 
 .question-card {
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 20px;
-
+border: 2px solid #ccc;
   margin: 10px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: rgba(255, 255, 255, 0.85);
-  border: 2px solid #5d1049;
+ 
 }
 
 
@@ -47,6 +47,6 @@ p {
   flex-grow: 1;
   padding: 10px;
   border: 2px solid #ccc;
-  border-radius: 5px;
+  border-radius: 15px;
   font-size: 1em;
 }
