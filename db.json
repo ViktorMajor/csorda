@@ -525,12 +525,12 @@
     {
       "id": 1705750814198,
       "text": "Viktor",
-      "score": 2
+      "score": 9
     },
     {
       "id": 1705750821019,
       "text": "Bence",
-      "score": 0
+      "score": 2
     },
     {
       "id": 1705750826199,
@@ -540,7 +540,12 @@
     {
       "id": 1705750831586,
       "text": "Luca",
-      "score": 1
+      "score": 3
+    },
+    {
+      "id": 1705760084543,
+      "text": "Jozsef",
+      "score": 0
     }
   ],
   "answers": [

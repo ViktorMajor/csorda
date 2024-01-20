@@ -1,6 +1,5 @@
 <div class="grid">
-  <div *ngFor="let player of gameService.players$ | async"class="player-card">
-  
+  <div *ngFor="let player of players$ | async"class="player-card">
     <div class="player-info" >
       <button (click)="onDecreaseScore(player.id)" class="score-btn decrease">-</button>
       <p class="player-name">{{ player.text }}: </p>
