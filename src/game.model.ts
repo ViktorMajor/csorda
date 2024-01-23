@@ -1,13 +1,11 @@
 export interface Player {
   id: number;
-  text: string;
+  name: string;
   score: number;
+  answer: string;
 }
 export interface Question {
   id: number;
   text: string;
 }
-export interface Answer {
-  player: string;
-  answer: string;
-}
+

@@ -1,11 +1,13 @@
 <div class="answer-card">
   <p class="answer-text">A válaszok:</p>
   <div>
-    <div class="answers" *ngFor="let answer of displayedAnswers">
-    <p class="name">{{ answer.player }}:</p>
-    <p>{{ answer.answer }}</p>
+    <div
+      class="answers"
+      *ngFor="let player of displayedAnswers"
+      [ngClass]="{ 'current': player.name === currentPlayerName }">
+      <p class="name">{{ player.name }}:</p>
+      <p>{{ player.answer }}</p>
+    </div>
+    <button (click)="showNextAnswer()">Következő</button>
   </div>
-  </div>
-  
-  <button (click)="showNextAnswer()">Következő</button>
 </div>

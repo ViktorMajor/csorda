@@ -1,38 +1,54 @@
-import { GameService } from 'src/app/service/game.service';
-import { Component, OnDestroy, OnInit } from '@angular/core';
-import { Observable, Subscription } from 'rxjs';
-import { Player } from 'src/game.model';
+import { PlayerService } from "src/app/service/player.service";
+import { Component, OnDestroy, OnInit } from "@angular/core";
+import { Observable, Subscription } from "rxjs";
+import { Player } from "src/game.model";
 
 @Component({
-    selector: 'app-players',
-    templateUrl: './players.component.html',
-    styleUrls: ['./players.component.css'],
+  selector: "app-players",
+  templateUrl: "./players.component.html",
+  styleUrls: ["./players.component.css"],
 })
 export class PlayersComponent implements OnDestroy, OnInit {
-    private subscriptions = new Subscription();
+  public currentPlayerId: number | null = null;
+  private subscriptions = new Subscription();
 
-    public players$: Observable<Player[]> = this.gameService.loadPlayers();
-    constructor(public gameService: GameService) {}
+  public players$: Observable<Player[]> = this.playerService.loadPlayers();
 
-    ngOnInit(): void {
-        this.gameService.loadPlayers();
-    }
-    onIncreaseScore(playerId: number): void {
-        console.log('onIncreaseScore', playerId);
-        const sub = this.gameService.increaseScore(playerId).subscribe(() => {
-            this.players$ = this.gameService.loadPlayers();
-        });
-        this.subscriptions.add(sub);
-    }
+  constructor(public playerService: PlayerService) {}
 
-    onDecreaseScore(playerId: number): void {
-        const sub = this.gameService.decreaseScore(playerId).subscribe(() => {
-            this.players$ = this.gameService.loadPlayers();
-        });
-        this.subscriptions.add(sub);
-    }
+  ngOnInit(): void {
+    this.loadPlayers();
+    this.loadCurrentPlayer();
+  }
 
-    ngOnDestroy(): void {
-        this.subscriptions.unsubscribe();
+  loadCurrentPlayer(): void {
+    const storedPlayerData = localStorage.getItem("currentPlayer");
+    if (storedPlayerData) {
+      const storedPlayer = JSON.parse(storedPlayerData);
+      this.currentPlayerId = storedPlayer.id;
     }
+  }
+
+  loadPlayers(): void {
+    this.players$ = this.playerService.loadPlayers();
+  }
+
+  onModifyScore(playerId: number, modifyNumber: number): void {
+    const sub = this.playerService.modifyScore(playerId, modifyNumber).subscribe(() => {
+      this.players$ = this.playerService.loadPlayers();
+    });
+    this.subscriptions.add(sub);
+  }
+
+  onIncreaseScore(playerId: number): void {
+    this.onModifyScore(playerId, 1);
+  }
+
+  onDecreaseScore(playerId: number): void {
+    this.onModifyScore(playerId, -1);
+  }
+
+  ngOnDestroy(): void {
+    this.subscriptions.unsubscribe();
+  }
 }

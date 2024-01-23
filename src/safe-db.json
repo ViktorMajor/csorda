@@ -158,7 +158,7 @@
     },
     {
       "id": 40,
-      "text": "Melyik a vidámabb ünnep?"
+      "text": "Melyik a legnépszerűbb ünnep?"
     },
     {
       "id": 41,
@@ -190,7 +190,7 @@
     },
     {
       "id": 48,
-      "text": "Melyik sportot élveznénk a legjobban együtt?"
+      "text": "Melyik a legjobb napszak a szexhez?"
     },
     {
       "id": 49,
@@ -222,7 +222,7 @@
     },
     {
       "id": 56,
-      "text": "Mi a tipikus falus kutyanév?"
+      "text": "Melyik a legjobb szexuális pozíció?"
     },
     {
       "id": 57,
@@ -523,34 +523,35 @@
   ],
   "players": [
     {
-      "id": 1706039534916,
-      "name": "Luca",
-      "score": 6,
-      "answer": "bugyi"
+      "id": 1705848794741,
+      "text": "Luca",
+      "score": 0
+    }
+  ],
+  "answers": [
+    {
+      "player": "Luca",
+      "answer": "ibolya"
     },
     {
-      "id": 1706039577984,
-      "name": "Major Viktor",
-      "score": 7,
-      "answer": "mozi"
+      "player": "Viktor",
+      "answer": "Rózsa ami meg van szinezve"
     },
     {
-      "id": 1706040774509,
-      "name": "Bence",
-      "score": 0,
-      "answer": "asztal de nem ez hanem aő kőafj sdpofjsed dfa"
+      "player": "Gergely",
+      "answer": "Kék Orchidea"
     },
     {
-      "id": 1706040824356,
-      "name": "Kriszti",
-      "score": 7,
-      "answer": "wepkfij ep9qwuüer lkhdq  we"
+      "player": "Bence",
+      "answer": "ibolya"
     },
     {
-      "id": 1706043576018,
-      "name": "Major Viktor",
-      "score": 0,
-      "answer": ""
+      "player": "Bence",
+      "answer": "ibolya"
+    },
+    {
+      "player": "Jocó",
+      "answer": "Kék Orchidea"
     }
   ]
 }

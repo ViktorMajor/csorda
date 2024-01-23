@@ -2,8 +2,34 @@ body {
   background-image: url("/assets/birka7.png");
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
-p, h1, button {
-font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+p,
+h1,
+button {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+  color: #00000099;
+}
+
+button {
+  background-color: #8fd46f;
+  font-size: 1.1em;
+  font-weight: 700;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+   width: 100%;
+   transition: background-color 0.3s, box-shadow 0.3s;
+}
+.button:active {
+  background-color: #7f9b76; 
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #8fd46f;
+  box-shadow: 0 0 8px #8fd46f;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }

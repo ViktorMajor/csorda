@@ -2,12 +2,12 @@
   border-radius: 15px;
   padding: 5px 10px;
   margin: 0;
-  margin-top: 30px;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px,
     rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   transition: all 0.3s ease;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.9);
 }
+
 .answer-card > div {
   display: flex;
   justify-content: space-evenly;
@@ -17,7 +17,7 @@
 .answer-text {
   font-size: 1.2em;
   font-weight: bold;
-  color: #d20046;
+  color: #d20046cf;
   margin: 2px;
 }
 .answers {
@@ -27,24 +27,25 @@
   margin-top: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.9);
   border: 2px solid #ccc;
+}
+.current {
+  border: 5px solid #8fd46f;
+   animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.015); }
+  100% { transform: scale(1); }
 }
 .answers p {
   margin: 3px;
 }
 .name {
-  color: #d20046;
+  color: #d20046cf;
   font-weight: 700;
 }
 button {
-  background-color: #adbea5;
-  color: white;
-  padding: 5px 10px;
-  border: none;
-  border-radius: 15px;
-  font-size: 1em;
-  cursor: pointer;
   margin-top: 10px;
-  transition: background-color 0.3s ease;
 }

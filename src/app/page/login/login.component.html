@@ -2,12 +2,13 @@
   <h2>Bejelentkezés</h2>
   <form [formGroup]="playerForm" (ngSubmit)="onSubmit()" class="login-form">
     <div class="form-group">
-      <label for="text">Név:</label>
-      <input type="text" id="text" formControlName="text">
-      <div *ngIf="playerForm.controls.text.invalid && playerForm.controls.text.touched">
+      <label for="name">Név:</label>
+      <input type="name" id="name" formControlName="name">
+      <div *ngIf="playerForm.controls.name.invalid && playerForm.controls.name.touched">
         A név megadása kötelező.
       </div>
     </div>
     <button type="submit" class="submit-btn" [disabled]="!playerForm.valid">Beküldés</button>
   </form>
+  <button (click)="goToGame()">Tovább</button>
 </div>

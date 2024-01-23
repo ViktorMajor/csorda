@@ -33,7 +33,7 @@
 }
 
 .submit-btn {
- background-color: #A8D5BA;
+ background-color: #8fd46f;
   padding: 10px 20px;
   border: none;
   border-radius: 15px;
@@ -42,9 +42,6 @@
   cursor: pointer;
 }
 
-.submit-btn:hover {
-  background-color: #A8D5BA;
-}
 
 @media (max-width: 600px) {
   .login-container {
@@ -63,12 +60,7 @@
 }
 
 
-.form-group input:focus {
-  outline: none;
-  border: 1px solid #A8D5BA;
-  box-shadow: 0 0 8px #A8D5BA;
-  transition: border-color 0.3s, box-shadow 0.3s;
-}
+
 
 .submit-btn:active {
   transform: scale(0.98);

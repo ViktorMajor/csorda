@@ -1,40 +1,48 @@
 import { Component } from '@angular/core';
 import { Player } from 'src/game.model';
-import { Router } from '@angular/router';
-import { GameService } from 'src/app/service/game.service';
+import { Router, Params } from '@angular/router';
+import { PlayerService } from 'src/app/service/player.service';
+import { QuestionService } from 'src/app/service/question.service';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 
+
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css'],
+  selector: "app-login",
+  templateUrl: "./login.component.html",
+  styleUrls: ["./login.component.css"],
 })
 export class LoginComponent {
-  constructor(private router: Router, private gameService: GameService) {}
+  constructor(private router: Router, private playerService: PlayerService, private questionService: QuestionService) {}
 
   playerForm = new FormGroup({
-    text: new FormControl('', Validators.required),
+    name: new FormControl("", Validators.required),
     score: new FormControl(0, Validators.required),
   });
 
-  player: Player = { id: 0, text: '', score: 0 };
+  player: Player = { id: 0, name: "", score: 0, answer: "" };
 
   onSubmit(): void {
     if (this.playerForm.valid) {
       const newPlayer: Player = {
         id: Date.now(),
-        text: this.playerForm.value.text ?? '',
+        name: this.playerForm.value.name ?? "",
         score: this.playerForm.value.score ?? 0,
+        answer: "",
       };
 
-      this.gameService.addPlayer(newPlayer).subscribe({
-        next: () => {
-          this.router.navigate(['/game']);
-        },
-        error: (error) => {
-          console.error('Error adding player:', error);
+      this.playerService.addPlayer(newPlayer).subscribe({
+        next: (player) => {
+          this.questionService.getRandomQuestionId().subscribe((id) => {
+            const queryParams: Params = { questionId: id };
+            this.router.navigate(["/game"], { queryParams });
+          });
+          this.playerService.saveCurrentPlayer(player);
         },
       });
     }
+  }
+
+  goToGame() {
+    this.router.navigate(["/game"]);
   }
 }

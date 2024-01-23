@@ -1,12 +1,12 @@
-<div class="grid">
-  <div *ngFor="let player of players$ | async"class="player-card">
-    <div class="player-info" >
+<div *ngIf="{ players: players$ | async } as data">
+  <div *ngFor="let player of data.players" 
+       class="player-card"
+       [ngClass]="{'current-player-card': player.id === currentPlayerId}">
+    <div class="player-info">
       <button (click)="onDecreaseScore(player.id)" class="score-btn decrease">-</button>
-      <p class="player-name">{{ player.text }}: </p>
-      <p class="player-score"> {{ player.score }}</p>
+      <p class="player-name">{{ player.name }}:</p>
+      <p class="player-score">{{ player.score }}</p>
       <button (click)="onIncreaseScore(player.id)" class="score-btn increase">+</button>
     </div>
-   
   </div>
 </div>
-

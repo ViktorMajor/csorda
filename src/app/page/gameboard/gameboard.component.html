@@ -1,16 +1,21 @@
-
 <div class="game-board">
-<div class="title">
+  <div class="btn-cont">
+    <!-- <button (click)="deletePlayers()">Törlés</button>
+    <button (click)="backToLogin()">Vissza</button> -->
+  </div>
+
+  <div class="title">
     <h1>Csordaszellem</h1>
     <p>Ahol nem jó egyedinek lenni!</p>
-</div>
+  </div>
+  <div class="component-container">
+    <div class="p-q-container">
+      <app-players></app-players>
+      <app-question></app-question>
+    </div>
 
-<div class="p-q-container">
-    <app-players></app-players>
-<app-question></app-question>
-</div>
+    <app-answers></app-answers>
 
-<app-answers></app-answers>
-
- <button class="navigate" (click)="showWritePage()">Válasz</button>
+    <button class="navigate" (click)="showWritePage()">Válasz</button>
+  </div>
 </div>

@@ -1,32 +1,27 @@
-import { Component, OnInit } from '@angular/core';
-import { GameService } from 'src/app/service/game.service';
-import { ActivatedRoute, Params, Router } from '@angular/router';
+import { Component, OnInit } from "@angular/core";
+import { PlayerService } from "src/app/service/player.service";
+import { Router } from "@angular/router";
+
 
 @Component({
-    selector: 'app-gameboard',
-    templateUrl: './gameboard.component.html',
-    styleUrls: ['./gameboard.component.css'],
+  selector: "app-gameboard",
+  templateUrl: "./gameboard.component.html",
+  styleUrls: ["./gameboard.component.css"],
 })
-export class GameboardComponent implements OnInit {
-    constructor(private gameService: GameService, private router: Router) {}
+export class GameboardComponent {
+  constructor(private playerService: PlayerService, private router: Router) {}
 
-    ngOnInit(): void {
-        this.gameService.getRandomQuestionId().subscribe((id) => {
-            const queryParams: Params = { questionId: id };
-            this.router.navigate([], {
-                queryParams,
-            });
-        });
-    }
-
-    deletePlayers(): void {
-        this.gameService.deleteAllPlayers().subscribe({
-            next: () => {},
-        });
-    }
-    showWritePage() {
-        this.router.navigate(['/write'], {
-            queryParamsHandling: 'merge',
-        });
+  deletePlayers(): void {
+    this.playerService.deleteAllPlayers().subscribe({
+      next: () => {},
+    });
+  }
+  showWritePage() {
+    this.router.navigate(["/write"], {
+      queryParamsHandling: "merge",
+    });
+  }
+    backToLogin() { 
+        this.router.navigate([""])
     }
 }

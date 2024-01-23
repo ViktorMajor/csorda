@@ -1,6 +1,8 @@
 .question-comp {
   height: 100%;
-  margin-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .question-card {
   border-radius: 15px;
@@ -8,10 +10,8 @@
   margin: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
- 
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.9);
 }
-
 p {
   font-size: 1.1em;
   margin: 10px 2px;
@@ -21,14 +21,7 @@ p {
   color: #d20046;
   margin: 2px;
 }
-
 .next-btn {
-  background-color: #ADBEA5;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 15px;
-  color: white;
-  font-size: 1em;
-  cursor: pointer;
+
   width: 100%;
 }
