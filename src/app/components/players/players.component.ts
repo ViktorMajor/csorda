@@ -14,11 +14,14 @@ export class PlayersComponent implements OnDestroy, OnInit {
 
   public players$: Observable<Player[]> = this.playerService.loadPlayers();
 
+  isShown: boolean = false;
+
   constructor(public playerService: PlayerService) {}
 
   ngOnInit(): void {
     this.loadPlayers();
     this.loadCurrentPlayer();
+    // setInterval(() => this.loadPlayers(), 5000);
   }
 
   loadCurrentPlayer(): void {
@@ -50,5 +53,8 @@ export class PlayersComponent implements OnDestroy, OnInit {
 
   ngOnDestroy(): void {
     this.subscriptions.unsubscribe();
+  }
+  showPlayers() {
+    this.isShown = !this.isShown; 
   }
 }

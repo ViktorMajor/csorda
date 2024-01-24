@@ -1,7 +1,10 @@
-<div *ngIf="{ players: players$ | async } as data">
-  <div *ngFor="let player of data.players" 
-       class="player-card"
-       [ngClass]="{'current-player-card': player.id === currentPlayerId}">
+<div *ngIf="{ players: players$ | async } as data" class="player-component">
+  <button (click)="showPlayers()" class="show-players"[ngClass]="{absolute: !isShown}" >>></button>
+
+  <div
+    *ngFor="let player of data.players"
+    class="player-card"
+    [ngClass]="{ 'current-player-card': player.id === currentPlayerId, none: !isShown }">
     <div class="player-info">
       <button (click)="onDecreaseScore(player.id)" class="score-btn decrease">-</button>
       <p class="player-name">{{ player.name }}:</p>

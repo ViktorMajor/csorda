@@ -18,9 +18,14 @@ export class AnswersComponent implements OnInit {
   constructor(private answerService: AnswerService, private router: Router) {}
 
   ngOnInit() {
+    // setInterval(() => this.answerService.getAnswers().subscribe((data) => {
+    //   this.players = data;
+    // }), 2000);
+
     this.answerService.getAnswers().subscribe((data) => {
       this.players = data;
     });
+    
     
     this.router.events.pipe(filter((event) => event instanceof NavigationEnd)).subscribe(() => {
       this.displayedAnswers = [];

@@ -1,5 +1,29 @@
 {
+  "players": [
+    {
+      "id": 1706134226720,
+      "name": "Viktor",
+      "score": 3,
+      "answer": "Nevetletlen hercegnő"
+    },
+    {
+      "id": 1706134237113,
+      "name": "Luca",
+      "score": 2,
+      "answer": "Birdget jones"
+    },
+    {
+      "id": 1706134278158,
+      "name": "Bence ",
+      "score": 1,
+      "answer": "Sex and the city "
+    }
+  ],
   "questions": [
+    {
+      "id": 0,
+      "text": "Milyen formában jobb a krumpli? Hasáb, püré, petrezselymes? "
+    },
     {
       "id": 1,
       "text": "Mi a legkedveltebb gyümölcs?"
@@ -10,7 +34,7 @@
     },
     {
       "id": 3,
-      "text": "Melyik a legnépszerűbb filmzsáner?"
+      "text": "Minek van a legnagyobb kereke a belvárosban? "
     },
     {
       "id": 4,
@@ -18,7 +42,7 @@
     },
     {
       "id": 5,
-      "text": "Mondj egy kék színű virágot!"
+      "text": "Mondj egy piros színű virágot!"
     },
     {
       "id": 6,
@@ -26,7 +50,7 @@
     },
     {
       "id": 7,
-      "text": "Melyik az leghíresebb történelmi személyiség?"
+      "text": "Ki az leghíresebb történelmi személyiség?"
     },
     {
       "id": 8,
@@ -34,15 +58,15 @@
     },
     {
       "id": 9,
-      "text": "Milyen az ideális pizza feltét?"
+      "text": "Mi elmaradhatatlan a pizza feltétről?"
     },
     {
       "id": 10,
-      "text": "Mi a legjobb időszak az évben?"
+      "text": "Mi a legjobb évszak az évben?"
     },
     {
       "id": 11,
-      "text": "Mi a legjobb hétvégi elfoglaltság?"
+      "text": "Ki a leggyakoribb vicc szereplő?"
     },
     {
       "id": 12,
@@ -50,7 +74,7 @@
     },
     {
       "id": 13,
-      "text": "Melyik a legrosszabb étel, amit valaha ettél?"
+      "text": "Mondj egy maradat, ami nem tud repülni!"
     },
     {
       "id": 14,
@@ -66,11 +90,11 @@
     },
     {
       "id": 17,
-      "text": "Melyik a legkissebb állat, ami elbírja a súllyod?"
+      "text": "Melyik a legkissebb állat, ami elbírja a súlyod?"
     },
     {
       "id": 18,
-      "text": "Mi a legnépszerűbb reggeli?"
+      "text": "Mi a legnépszerűbb reggeli Magyarországon?"
     },
     {
       "id": 19,
@@ -94,7 +118,7 @@
     },
     {
       "id": 24,
-      "text": "Melyik a legfinomabb fűszer?"
+      "text": "Ki hozza karácsonykor az ajándékot?"
     },
     {
       "id": 25,
@@ -162,7 +186,7 @@
     },
     {
       "id": 41,
-      "text": "Mi a legjobb módja az idő eltöltésének egyedül?"
+      "text": "Mi a legszórakoztatóbb módja az idő eltöltésének egyedül?"
     },
     {
       "id": 42,
@@ -170,7 +194,7 @@
     },
     {
       "id": 43,
-      "text": "Melyik a legjobb film az elmúlt 10 évben?"
+      "text": "Melyik filmre vették a legtöbb jegyet az elmúlt 10 évben?"
     },
     {
       "id": 44,
@@ -182,7 +206,7 @@
     },
     {
       "id": 46,
-      "text": "Mi a tökéletes reggeli?"
+      "text": "A világ leggazdagabb, legokosabb, vagy legszebb embere lennel szívesebben?"
     },
     {
       "id": 47,
@@ -226,7 +250,7 @@
     },
     {
       "id": 57,
-      "text": "Mi a legfontosabb dolog a személyes higiéniában?"
+      "text": "Mi a fontosabb dolog a személyes higiéniában? Naponta fürdeni, fogat mosni vagy zoknit cserélni?"
     },
     {
       "id": 58,
@@ -238,7 +262,7 @@
     },
     {
       "id": 60,
-      "text": "Melyik a legnagyobb hiba, amit elkövethetsz munkahelyen?"
+      "text": "Kő-papír-ollót játszol. Mit mutatsz először?"
     },
     {
       "id": 61,
@@ -250,7 +274,7 @@
     },
     {
       "id": 63,
-      "text": "Mit kell tenned, hogy megdícsérjen az anyád?"
+      "text": "Mikor dícsér meg jobban az anyád? Apró jó cselekedet, teljesítménybeli siker, bölcs döntés?"
     },
     {
       "id": 64,
@@ -266,7 +290,7 @@
     },
     {
       "id": 67,
-      "text": "Hány centi a férfiak átlag magassága Magyarországon?"
+      "text": "Hány centi a férfiak átlag magassága Magyarországon? 170, 175, 180?"
     },
     {
       "id": 68,
@@ -282,7 +306,7 @@
     },
     {
       "id": 71,
-      "text": "Ki a legbefolyásosabb ember?"
+      "text": "Ki a legbefolyásosabb ember a földön?"
     },
     {
       "id": 72,
@@ -302,7 +326,7 @@
     },
     {
       "id": 76,
-      "text": "Mit viszel magaddal a lakatlan szigetre?"
+      "text": "Mi az az egy dolog, amit magaddal vinnél egy lakatlan szigetre?"
     },
     {
       "id": 77,
@@ -310,7 +334,7 @@
     },
     {
       "id": 78,
-      "text": "Mi a legfinomabb süti?"
+      "text": "Mi a finomabb süti? Sajttorta, francia krémes, mignon, ischler?"
     },
     {
       "id": 79,
@@ -326,7 +350,7 @@
     },
     {
       "id": 82,
-      "text": "Mi a legfontosabb dolog az életben?"
+      "text": "Melyik gyümölccel nehéz zsonglőrködni?"
     },
     {
       "id": 83,
@@ -350,7 +374,7 @@
     },
     {
       "id": 88,
-      "text": "Mi a legnépszerűbb kutyafajta?"
+      "text": "Mi a legnépszerűbb kutyafajta Magyarországon?"
     },
     {
       "id": 89,
@@ -358,7 +382,7 @@
     },
     {
       "id": 90,
-      "text": "Mi a legrosszabb dolog, ami történni fog 10 éven belül a világban?"
+      "text": "Nevezd meg a hét törpe egyikét!"
     },
     {
       "id": 91,
@@ -370,11 +394,11 @@
     },
     {
       "id": 93,
-      "text": "Ki a legokosabb ember a világon?"
+      "text": "Ki a legokosabb élő vagy halott ember a világon?"
     },
     {
       "id": 94,
-      "text": "Ki néz ki a legjobban köztünk?"
+      "text": "Ki a legcsinosabb köztünk?"
     },
     {
       "id": 95,
@@ -382,7 +406,7 @@
     },
     {
       "id": 96,
-      "text": "Mit szégyelnek a legjobban az emberek?"
+      "text": "Milyen színű a 70 éves öregasszonyok haja?"
     },
     {
       "id": 97,
@@ -394,7 +418,7 @@
     },
     {
       "id": 99,
-      "text": "Hány órán keresztül tudsz táncolni megállás nélkül?"
+      "text": "Hány órán keresztül tudsz táncolni megállás nélkül? 1, 2, 3, 4, 5 ?"
     },
     {
       "id": 100,
@@ -414,11 +438,11 @@
     },
     {
       "id": 104,
-      "text": "Mi a leg pasisabb tevékenység?"
+      "text": "Mi a legpasisabb tevékenység?"
     },
     {
       "id": 105,
-      "text": "Melyik a legkönnyebb táncstílus?"
+      "text": "Mi a kedvenc gyerekkori meséd?"
     },
     {
       "id": 106,
@@ -430,7 +454,7 @@
     },
     {
       "id": 108,
-      "text": "Mit csinálsz, ha melletted verekednek?"
+      "text": "Hány ember született köztünk nyáron?"
     },
     {
       "id": 109,
@@ -450,11 +474,11 @@
     },
     {
       "id": 113,
-      "text": "Hogyan ünnepelnének születésnapot az autók?"
+      "text": "Melyik a kedvenc testrészed?"
     },
     {
       "id": 114,
-      "text": "Mit változtatnál a testeden egy plasztikai műtéttel?"
+      "text": "Mi az amit jobb használtan venni, mint újonnan?"
     },
     {
       "id": 115,
@@ -470,7 +494,7 @@
     },
     {
       "id": 118,
-      "text": "Mi nélkül nem lehet élni?"
+      "text": "Mit válaszolsz a gyrososnál erre: hagyma, csípős mehet?"
     },
     {
       "id": 119,
@@ -494,7 +518,7 @@
     },
     {
       "id": 124,
-      "text": "Hova dugod el a puskádat vizsga közben?"
+      "text": "Hova dugod el a papírlap puskádat vizsga közben?"
     },
     {
       "id": 125,
@@ -510,7 +534,7 @@
     },
     {
       "id": 128,
-      "text": "Mit néztek karácsonykor?"
+      "text": "Melyik a legjobb karácsonyi film?"
     },
     {
       "id": 129,
@@ -519,38 +543,6 @@
     {
       "id": 130,
       "text": "Kinek a legszebb a mosolya köztünk?"
-    }
-  ],
-  "players": [
-    {
-      "id": 1706039534916,
-      "name": "Luca",
-      "score": 6,
-      "answer": "bugyi"
-    },
-    {
-      "id": 1706039577984,
-      "name": "Major Viktor",
-      "score": 7,
-      "answer": "mozi"
-    },
-    {
-      "id": 1706040774509,
-      "name": "Bence",
-      "score": 0,
-      "answer": "asztal de nem ez hanem aő kőafj sdpofjsed dfa"
-    },
-    {
-      "id": 1706040824356,
-      "name": "Kriszti",
-      "score": 7,
-      "answer": "wepkfij ep9qwuüer lkhdq  we"
-    },
-    {
-      "id": 1706043576018,
-      "name": "Major Viktor",
-      "score": 0,
-      "answer": ""
     }
   ]
 }

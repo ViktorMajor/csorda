@@ -1,3 +1,5 @@
+// json-server --watch db.json --host 0.0.0.0
+
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
 import { Player } from "src/game.model";
@@ -10,7 +12,7 @@ import { tap } from "rxjs/operators";
   providedIn: "root",
 })
 export class AnswerService {
-  private playerUrl = "http://localhost:3000/players";
+  private playerUrl = "http://192.168.1.179:3000/players";
 
   private answersDeletedSource = new Subject<void>();
   answersDeleted$ = this.answersDeletedSource.asObservable();
@@ -35,3 +37,5 @@ export class AnswerService {
     );
   }
 }
+// Ha az egyik eszköz korábban tölt be, akkor a késöbb beadott válaszok nem érkeznek be erre a készülékre.
+// Se a player komponensnél, se az answernél. 

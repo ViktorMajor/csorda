@@ -1,12 +1,11 @@
-
 .login-container {
-  max-width: 400px;
+  max-width: 40rem;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 15px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .login-form {
@@ -23,64 +22,47 @@
 
 .form-group label {
   font-weight: bold;
+  font-size: 1rem; /* Adjon meg egy alapértelmezett méretet */
 }
 
 .form-group input {
-  padding: 8px;
+  padding: 12px; /* Egységesített padding */
   border: 1px solid #ccc;
   border-radius: 15px;
-  font-size: 16px;
+  font-size: 1rem; /* Egységesített betűméret */
 }
 
 .submit-btn {
- background-color: #8fd46f;
-  padding: 10px 20px;
+  background-color: #8fd46f;
+  padding: 15px 25px;
   border: none;
   border-radius: 15px;
   color: white;
-  font-size: 1em;
+  font-size: 1.1em;
   cursor: pointer;
 }
-
-
-@media (max-width: 600px) {
-  .login-container {
-    max-width: 90%;
-    padding: 10px;
-  }
-
-  .form-group input {
-    font-size: 14px;
-  }
-
-  .submit-btn {
-    padding: 12px 24px;
-    font-size: 0.9em;
-  }
-}
-
-
-
 
 .submit-btn:active {
   transform: scale(0.98);
 }
 
+/* Reszponzív beállítások kisebb képernyőkre */
+@media (max-width: 600px) {
+  .login-container {
+    max-width: 100%;
+    padding: 10px;
+  }
 
-.form-group input {
-  padding: 12px;
-}
+  .form-group label {
+    font-size: 0.8rem; /* Kis képernyőn kisebb betűméret */
+  }
 
-.submit-btn {
-  padding: 15px 25px;
-  font-size: 1.1em;
-}
+  .form-group input {
+    font-size: 0.8rem; /* Kis képernyőn kisebb betűméret */
+  }
 
-
-.form-group label {
-  font-size: 18px;
-}
-
-.form-group input {
-  font-size: 16px;
+  .submit-btn {
+    padding: 12px 24px;
+    font-size: 0.9em; /* Kis képernyőn kisebb gomb */
+  }
 }

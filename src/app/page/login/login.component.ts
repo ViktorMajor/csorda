@@ -32,7 +32,7 @@ export class LoginComponent {
 
       this.playerService.addPlayer(newPlayer).subscribe({
         next: (player) => {
-          this.questionService.getRandomQuestionId().subscribe((id) => {
+          this.questionService.getNextQuestionId().subscribe((id) => {
             const queryParams: Params = { questionId: id };
             this.router.navigate(["/game"], { queryParams });
           });
@@ -42,7 +42,5 @@ export class LoginComponent {
     }
   }
 
-  goToGame() {
-    this.router.navigate(["/game"]);
-  }
+
 }

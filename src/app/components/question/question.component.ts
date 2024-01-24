@@ -28,7 +28,7 @@ export class QuestionComponent implements OnInit {
   }
 
   nextRound() {
-    this.questionService.getRandomQuestionId().subscribe((id) => {
+    this.questionService.getNextQuestionId().subscribe((id) => {
       const queryParams: Params = { questionId: id };
       this.router.navigate([], { queryParams });
     });

@@ -8,12 +8,12 @@ import { map } from "rxjs/operators";
   providedIn: "root",
 })
 export class QuestionService {
-  private questionsUrl = "http://localhost:3000/questions";
+  private questionsUrl = " http://192.168.1.179:3000/questions";
 
   constructor(private http: HttpClient) {}
-  private currentId = 0;
-  
-  public getRandomQuestionId(): Observable<number> {
+  private currentId = 1;
+
+  public getNextQuestionId(): Observable<number> {
     return this.http.get<Question[]>(this.questionsUrl).pipe(
       map((questions) => {
         this.currentId = (this.currentId + 101) % questions.length;
@@ -21,8 +21,6 @@ export class QuestionService {
       })
     );
   }
-
- 
 
   public getQuestionById(id: number): Observable<Question> {
     return this.http.get<Question>(`${this.questionsUrl}/${id}`);
