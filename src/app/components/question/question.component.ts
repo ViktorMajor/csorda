@@ -1,7 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute, Params, Router } from "@angular/router";
 import { QuestionService } from "src/app/service/question.service";
-import { AnswerService } from "src/app/service/answer.service";
 import { Question } from "src/game.model";
 
 @Component({
@@ -16,7 +15,6 @@ export class QuestionComponent implements OnInit {
     private questionService: QuestionService,
     private activatedRoute: ActivatedRoute,
     private router: Router,
-    private answerService: AnswerService
   ) {}
 
   ngOnInit(): void {

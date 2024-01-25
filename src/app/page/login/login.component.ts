@@ -1,10 +1,9 @@
-import { Component } from '@angular/core';
-import { Player } from 'src/game.model';
-import { Router, Params } from '@angular/router';
-import { PlayerService } from 'src/app/service/player.service';
-import { QuestionService } from 'src/app/service/question.service';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
-
+import { Component } from "@angular/core";
+import { Player } from "src/game.model";
+import { Router, Params } from "@angular/router";
+import { PlayerService } from "src/app/service/player.service";
+import { QuestionService } from "src/app/service/question.service";
+import { FormControl, FormGroup, Validators } from "@angular/forms";
 
 @Component({
   selector: "app-login",
@@ -12,7 +11,11 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
   styleUrls: ["./login.component.css"],
 })
 export class LoginComponent {
-  constructor(private router: Router, private playerService: PlayerService, private questionService: QuestionService) {}
+  constructor(
+    private router: Router,
+    private playerService: PlayerService,
+    private questionService: QuestionService
+  ) {}
 
   playerForm = new FormGroup({
     name: new FormControl("", Validators.required),
@@ -41,6 +44,4 @@ export class LoginComponent {
       });
     }
   }
-
-
 }

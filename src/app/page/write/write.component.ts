@@ -1,5 +1,5 @@
 import { Component, ViewChild, ElementRef } from "@angular/core";
-import { ActivatedRoute, Router, Params } from "@angular/router";
+import { ActivatedRoute, Router } from "@angular/router";
 import { mergeMap } from "rxjs";
 import { QuestionService } from "src/app/service/question.service";
 import { AnswerService } from "src/app/service/answer.service";

@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;700&display=swap");
-
+html {
+  max-width: 430px;
+}
 body {
   background-image: url("/assets/birka2.png");
   background-size: cover;
@@ -15,7 +17,7 @@ button {
 }
 
 button {
-  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  background: linear-gradient(135deg, #6dd5ed, #218fab);
   color: white;
   font-size: 1.1em;
   font-weight: 700;
@@ -38,9 +40,4 @@ input:focus {
   box-shadow: 0 0 8px #8fd46f;
   transition: border-color 0.3s, box-shadow 0.3s;
 }
-@media only screen and (max-width: 450px) {
-  html {
-    max-width: 430px;
-    margin: auto;
-  }
-}
+

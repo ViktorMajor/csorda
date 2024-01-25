@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
-import { Player} from "src/game.model";
+import { Player } from "src/game.model";
 import { Observable, forkJoin, of } from "rxjs";
 import { map, tap, switchMap } from "rxjs/operators";
 
@@ -8,7 +8,9 @@ import { map, tap, switchMap } from "rxjs/operators";
   providedIn: "root",
 })
 export class PlayerService {
+  // private playerUrl = "http://localhost:3000/players";
   private playerUrl = "http://192.168.1.179:3000/players";
+
 
   constructor(private http: HttpClient) {}
 
@@ -34,15 +36,6 @@ export class PlayerService {
 
   updatePayer(player: Player): Observable<Player> {
     return this.http.put<Player>(`${this.playerUrl}/${player.id}`, player);
-  }
-
-  deleteAllPlayers(): Observable<void[]> {
-    return this.http.get<Player[]>(this.playerUrl).pipe(
-      switchMap((players) => {
-        const deleteRequests = players.map((player) => this.http.delete<void>(`${this.playerUrl}/${player.id}`));
-        return forkJoin(deleteRequests);
-      })
-    );
   }
 
   saveCurrentPlayer(player: Player): void {

@@ -3,7 +3,7 @@
     {
       "id": 1706134226720,
       "name": "Viktor",
-      "score": 3,
+      "score": 33,
       "answer": "Nevetletlen hercegnő"
     },
     {
@@ -17,6 +17,18 @@
       "name": "Bence ",
       "score": 1,
       "answer": "Sex and the city "
+    },
+    {
+      "id": 1706136136328,
+      "name": "Dgz",
+      "score": 0,
+      "answer": ""
+    },
+    {
+      "id": 1706206437145,
+      "name": "Bance : :",
+      "score": 2,
+      "answer": ""
     }
   ],
   "questions": [
@@ -250,7 +262,7 @@
     },
     {
       "id": 57,
-      "text": "Mi a fontosabb dolog a személyes higiéniában? Naponta fürdeni, fogat mosni vagy zoknit cserélni?"
+      "text": "Mi a fontosabb napi szokás a személyes higiéniában? Fürdeni, fogat mosni vagy alsóneműt cserélni?"
     },
     {
       "id": 58,

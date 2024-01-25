@@ -21,7 +21,7 @@ export class PlayersComponent implements OnDestroy, OnInit {
   ngOnInit(): void {
     this.loadPlayers();
     this.loadCurrentPlayer();
-    // setInterval(() => this.loadPlayers(), 5000);
+   // setInterval(() => this.loadPlayers(), 2000);
   }
 
   loadCurrentPlayer(): void {

@@ -1,7 +1,5 @@
-import { Component, OnInit } from "@angular/core";
-import { PlayerService } from "src/app/service/player.service";
+import { Component } from "@angular/core";
 import { Router } from "@angular/router";
-
 
 @Component({
   selector: "app-gameboard",
@@ -9,19 +7,11 @@ import { Router } from "@angular/router";
   styleUrls: ["./gameboard.component.css"],
 })
 export class GameboardComponent {
-  constructor(private playerService: PlayerService, private router: Router) {}
+  constructor(private router: Router) {}
 
-  deletePlayers(): void {
-    this.playerService.deleteAllPlayers().subscribe({
-      next: () => {},
-    });
-  }
   showWritePage() {
     this.router.navigate(["/write"], {
       queryParamsHandling: "merge",
     });
   }
-    backToLogin() { 
-        this.router.navigate([""])
-    }
 }
