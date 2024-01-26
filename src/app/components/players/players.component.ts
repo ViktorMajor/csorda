@@ -1,6 +1,6 @@
 import { PlayerService } from "src/app/service/player.service";
 import { Component, OnDestroy, OnInit } from "@angular/core";
-import { Observable, Subscription } from "rxjs";
+import { Observable, Subscription, combineLatest, of } from "rxjs";
 import { Player } from "src/game.model";
 
 @Component({
@@ -37,10 +37,12 @@ export class PlayersComponent implements OnDestroy, OnInit {
   }
 
   onModifyScore(playerId: number, modifyNumber: number): void {
-    const sub = this.playerService.modifyScore(playerId, modifyNumber).subscribe(() => {
-      this.players$ = this.playerService.loadPlayers();
-    });
-    this.subscriptions.add(sub);
+   const updatedPlayer$ = this.playerService.modifyScore(playerId, modifyNumber);
+   combineLatest([this.players$, updatedPlayer$]).subscribe(([players, player]) => {
+      const index = players.findIndex((p) => p.id === player.id);
+      players[index] = player;    
+      this.players$ = of(players);
+   });
   }
 
   onIncreaseScore(playerId: number): void {
