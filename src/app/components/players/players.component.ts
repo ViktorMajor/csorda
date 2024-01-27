@@ -21,9 +21,10 @@ export class PlayersComponent implements OnDestroy, OnInit {
   ngOnInit(): void {
     this.loadPlayers();
     this.loadCurrentPlayer();
-   // setInterval(() => this.loadPlayers(), 2000);
+    // setInterval(() => this.loadPlayers(), 2000); // TODO! attempt to constantly update the data
   }
 
+  // Load the current player's data from local storage
   loadCurrentPlayer(): void {
     const storedPlayerData = localStorage.getItem("currentPlayer");
     if (storedPlayerData) {
@@ -35,14 +36,14 @@ export class PlayersComponent implements OnDestroy, OnInit {
   loadPlayers(): void {
     this.players$ = this.playerService.loadPlayers();
   }
-
+  // Function to modify a player's score
   onModifyScore(playerId: number, modifyNumber: number): void {
-   const updatedPlayer$ = this.playerService.modifyScore(playerId, modifyNumber);
-   combineLatest([this.players$, updatedPlayer$]).subscribe(([players, player]) => {
+    const updatedPlayer$ = this.playerService.modifyScore(playerId, modifyNumber);
+    combineLatest([this.players$, updatedPlayer$]).subscribe(([players, player]) => {
       const index = players.findIndex((p) => p.id === player.id);
-      players[index] = player;    
+      players[index] = player;
       this.players$ = of(players);
-   });
+    });
   }
 
   onIncreaseScore(playerId: number): void {
@@ -56,7 +57,8 @@ export class PlayersComponent implements OnDestroy, OnInit {
   ngOnDestroy(): void {
     this.subscriptions.unsubscribe();
   }
+  // Toggle the visibility of the players
   showPlayers() {
-    this.isShown = !this.isShown; 
+    this.isShown = !this.isShown;
   }
 }

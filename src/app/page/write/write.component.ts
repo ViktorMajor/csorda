@@ -20,6 +20,7 @@ export class WriteComponent {
     private activatedRoute: ActivatedRoute
   ) {}
 
+  // Fetch the question based on the question ID from the URL query parameters
   ngOnInit(): void {
     this.activatedRoute.queryParams
       .pipe(mergeMap((params) => this.questionService.getQuestionById(params["questionId"])))
@@ -27,6 +28,7 @@ export class WriteComponent {
   }
 
   onSubmit(): void {
+    // Retrieve the current player's data from local storage
     const storedPlayerData = localStorage.getItem("currentPlayer");
     if (!storedPlayerData) {
       console.error("player is not found");
@@ -34,13 +36,13 @@ export class WriteComponent {
     }
     const player = JSON.parse(storedPlayerData);
     const playerName = player.name;
-
+    // Get the answer text from the input element
     const answerText = this.answerInput.nativeElement.value;
     if (!answerText) {
       console.error("input is not found");
       return;
     }
-
+    // Fetch existing answers and update the current player's answer
     this.answerService.getAnswers().subscribe((players) => {
       const existingPlayer = players.find((p) => p.name === playerName);
       if (existingPlayer) {

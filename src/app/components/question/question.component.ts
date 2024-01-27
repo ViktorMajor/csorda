@@ -14,17 +14,21 @@ export class QuestionComponent implements OnInit {
   constructor(
     private questionService: QuestionService,
     private activatedRoute: ActivatedRoute,
-    private router: Router,
+    private router: Router
   ) {}
 
+  // Subscribe to query parameters
   ngOnInit(): void {
     this.activatedRoute.queryParams.subscribe((params) => {
       if (params["questionId"]) {
-        this.questionService.getQuestionById(params["questionId"]).subscribe((question) => (this.question = question));
+        this.questionService
+          .getQuestionById(params["questionId"])
+          .subscribe((question) => (this.question = question));
       }
     });
   }
 
+  // Function to navigate to the next question
   nextRound() {
     this.questionService.getNextQuestionId().subscribe((id) => {
       const queryParams: Params = { questionId: id };
