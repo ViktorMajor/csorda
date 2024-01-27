@@ -16,7 +16,7 @@ export class WriteComponent {
   constructor(
     private router: Router,
     private questionService: QuestionService,
-    private annswerService: AnswerService,
+    private answerService: AnswerService,
     private activatedRoute: ActivatedRoute
   ) {}
 
@@ -41,11 +41,11 @@ export class WriteComponent {
       return;
     }
 
-    this.annswerService.getAnswers().subscribe((players) => {
+    this.answerService.getAnswers().subscribe((players) => {
       const existingPlayer = players.find((p) => p.name === playerName);
       if (existingPlayer) {
         existingPlayer.answer = answerText;
-        this.annswerService.updateAnswer(existingPlayer).subscribe({
+        this.answerService.updateAnswer(existingPlayer).subscribe({
           next: () => {
             this.router.navigate(["/game"], {
               queryParamsHandling: "merge",

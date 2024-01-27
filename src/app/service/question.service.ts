@@ -8,8 +8,8 @@ import { map } from "rxjs/operators";
   providedIn: "root",
 })
 export class QuestionService {
-  // private questionsUrl = " http://localhost:3000/questions";
-  private questionsUrl = " http://192.168.1.179:3000/questions";
+  private questionsUrl = " http://localhost:3000/questions";
+  // private questionsUrl = " http://192.168.1.179:3000/questions";
 
   constructor(private http: HttpClient) {}
   private currentId = 0;

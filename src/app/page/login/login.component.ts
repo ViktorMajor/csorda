@@ -4,6 +4,7 @@ import { Router, Params } from "@angular/router";
 import { PlayerService } from "src/app/service/player.service";
 import { QuestionService } from "src/app/service/question.service";
 import { FormControl, FormGroup, Validators } from "@angular/forms";
+import { switchMap } from "rxjs/operators";
 
 @Component({
   selector: "app-login",
@@ -24,24 +25,27 @@ export class LoginComponent {
 
   player: Player = { id: 0, name: "", score: 0, answer: "" };
 
-  onSubmit(): void {
-    if (this.playerForm.valid) {
-      const newPlayer: Player = {
-        id: Date.now(),
-        name: this.playerForm.value.name ?? "",
-        score: this.playerForm.value.score ?? 0,
-        answer: "",
-      };
+ 
 
-      this.playerService.addPlayer(newPlayer).subscribe({
-        next: (player) => {
-          this.questionService.getNextQuestionId().subscribe((id) => {
-            const queryParams: Params = { questionId: id };
-            this.router.navigate(["/game"], { queryParams });
-          });
-          this.playerService.saveCurrentPlayer(player);
-        },
-      });
-    }
+onSubmit(): void {
+  if (this.playerForm.valid) {
+    const newPlayer: Player = {
+      id: Date.now(),
+      name: this.playerForm.value.name ?? "",
+      score: this.playerForm.value.score ?? 0,
+      answer: "",
+    };
+
+    this.playerService.addPlayer(newPlayer).pipe(
+      switchMap(player => {
+        this.playerService.saveCurrentPlayer(player);
+        return this.questionService.getNextQuestionId();
+      })
+    ).subscribe(id => {
+      const queryParams: Params = { questionId: id };
+      this.router.navigate(["/game"], { queryParams });
+    });
   }
+}
+
 }

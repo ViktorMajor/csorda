@@ -13,7 +13,7 @@ p,
 h1,
 button {
   font-family: "Quicksand", "Pacifico", Helvetica, Arial;
-  color: #00000099;
+  color: #000000ad;
 }
 
 button {
@@ -28,6 +28,7 @@ button {
   cursor: pointer;
   width: 100%;
   transition: background-color 0.3s, box-shadow 0.3s;
+  border: 2px solid white;
 }
 .button:active {
   background-color: #7f9b76;

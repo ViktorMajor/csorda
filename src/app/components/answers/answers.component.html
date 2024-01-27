@@ -6,6 +6,7 @@
       *ngFor="let player of displayedAnswers"
       [ngClass]="{ 'current': player.name === currentPlayerName }">
       <p class="name">{{ player.name }}:</p>
+      <hr>
       <p>{{ player.answer }}</p>
     </div>
     <button (click)="showNextAnswer()">Következő válasz</button>

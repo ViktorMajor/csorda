@@ -1,27 +1,23 @@
 # Csordaszellem
+This portfolio project encompasses a real-time, multi-device board game application, primarily intended for private use. The application's current backend is hosted on a JSON server, which leads to a critical limitation: the absence of bidirectional communication between the frontend and backend. This issue adversely impacts the game's logic, necessitating rectification through either a server switch or improved frontend logic.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+## Starting the Application
+Important: To start the application, it is essential to initiate the server with the command json-server --watch db.json. This step is crucial for the proper functionality of the application.
 
-## Development server
+## Development Server
+Execute ng serve to run the development server. Visit http://localhost:4200/ to access the application. The application is configured for automatic reloading following any modifications to the source files.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Code Scaffolding
+Utilize ng generate component component-name to generate a new component. Other scaffolding commands include ng generate directive|pipe|service|class|guard|interface|enum|module, offering comprehensive options for development.
 
-## Code scaffolding
+## Building the Project
+Use ng build to compile the project. The build artifacts will be stored in the dist/ directory.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Executing Unit Tests
+Run ng test to conduct unit tests via Karma.
 
-## Build
+## Conducting End-to-End Tests
+For end-to-end testing, use ng e2e. This command requires prior installation of a package supporting end-to-end testing capabilities.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Additional Assistance
+For more information and assistance on the Angular CLI, consult ng help or visit the Angular CLI Overview and Command Reference page.

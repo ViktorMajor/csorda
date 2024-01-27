@@ -9,8 +9,8 @@ import { Observable } from "rxjs";
   providedIn: "root",
 })
 export class AnswerService {
-  // private playerUrl = "http://localhost:3000/players";
-  private playerUrl = "http://192.168.1.179:3000/players";
+  private playerUrl = "http://localhost:3000/players";
+  // private playerUrl = "http://192.168.1.179:3000/players";
 
   constructor(private http: HttpClient) {}
 
